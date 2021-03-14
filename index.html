@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="./js/main.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1 class="page-title">TO DO LIST</h1>
+  </header>
+  <div class="container">
+    <section class="input-task">
+      <form class="input-task-form">
+        <input id="task-to-add" type="text" placeholder="type your task">
+        <button type="submit">
+          Submit
+        </button>
+      </form>
+      <div class="separator"></div>
+    </section>
+    <section class="tasks-list">
+      <ul id="to-do-list">
+        <div class="task-item">
+          <span class="span-task">
+            <li>estudar js</li>
+            <img src="/img/delete-button.png" onclick="deleteTask()">
+          </span>
+        </div>
+        <div class="task-item">
+          <span class="span-task">
+            <li>estudar react</li>
+            <img src="/img/delete-button.png" onclick="deleteTask()">
+          </span>
+        </div>
+        <div class="task-item">
+          <span class="span-task">
+            <li>estudar css</li>
+            <img src="/img/delete-button.png" onclick="deleteTask()">
+          </span>
+        </div>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

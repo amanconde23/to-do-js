@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Poppins, sans-serif;
+  background: #B7B7B7;
+}
+
+.page-title{
+  font-family: Poppins;
+  font-size: 60px;
+  text-align: center;
+  line-height: 120px;
+  color: #4267E9;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-task-form{
+  margin-top: 30px ;
+}
+
+.input-task-form input{
+  padding: 10px;
+  width: 500px;
+  border: #ffffff;
+  border-radius: 10px 0 0 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.input-task-form button{
+  background: #4267E9;
+  padding: 10px;
+  width: 100px;
+  border: #4267E9;
+  border-radius: 0 10px 10px 0px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.separator{
+  border-bottom: 2px solid #ffffff;
+  margin: 40px 0;
+}
+
+.tasks-list ul{
+  list-style-type: none;
+}
+
+.span-task{
+  display: flex;
+}
+
+.task-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.task-item img{
+  width: 40px;
+}
+
+.tasks-list  li{
+  border: 1px solid #ffffff;
+  border-radius: 10px 0 0 10px;
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px 20px 5px 20px;
+  width: 564px;
+}
+
